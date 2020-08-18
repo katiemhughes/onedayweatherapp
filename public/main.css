@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+html {
+    background-color: #90e0ef;
+}
+
+.titleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Alata', sans-serif;
+    color: #0077b6;
+}
+
+.description {
+    font-family: 'Alata', sans-serif;
+    color: #00b4d8;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.weatherInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03045e;
+    margin: 25px;
+    padding: 15px;
+    color: #caf0f8;
+    font-family: 'Alata', sans-serif;
+    border-radius: 25px;
+}
